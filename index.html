@@ -22,7 +22,14 @@
     <title>Diksha | Portfolio</title>
   </head>
   <body>
-    <div class="container">
+    <div class="loading-wrapper">
+      <div class="loading">
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+
+    <div class="container" id="main-content">
       <!-- Header  -->
       <div class="back_to_top" title="top">
         <img src="./img/icons/arrow.svg" />
@@ -872,6 +879,15 @@
           behavior: "smooth",
         });
       }
+
+      const loading = document.querySelector(".loading-wrapper");
+      const content = document.getElementById("main-content");
+      content.style.display = "none";
+
+      window.addEventListener("load", () => {
+        loading.style.display = "none";
+        content.style.display = "block";
+      });
     </script>
   </body>
 </html>
