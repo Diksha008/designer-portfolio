@@ -51,6 +51,9 @@ html{
 .font-size-18{
   font-size: 18px;
 }
+.font-size-16{
+  font-size: 16px;
+}
 .gap-12{
   width: 12px;
   display: block;
@@ -353,7 +356,7 @@ html{
 }
 
 .projectName {
-  height: 65%;
+  height: 53%;
   background: #121212 !important;
   color: #fafafa !important;
   border-radius: 5px !important;
