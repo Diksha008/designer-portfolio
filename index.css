@@ -1,5 +1,10 @@
 body {
   font-family: "Poppins";
+  transition: all .3s ease;
+}
+
+html{
+  scroll-behavior: smooth;
 }
 .custom-container {
   margin: 0px 60px;
